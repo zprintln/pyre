@@ -1,0 +1,57 @@
+// server.js
+
+const express = require('express');
+const http = require('http');
+const { Server } = require('socket.io');
+const mqtt = require('mqtt');
+
+const app = express();
+const server = http.createServer(app);
+const io = new Server(server);
+
+// MQTT Configuration
+const mqttClient = mqtt.connect('mqtt://broker.hivemq.com'); // Replace with your MQTT broker URL
+const MQTT_TOPIC = 'ecoguardians/alerts';
+
+mqttClient.on('connect', () => {
+    console.log('Connected to MQTT broker');
+});
+
+mqttClient.on('error', (err) => {
+    console.error('MQTT connection error:', err);
+});
+
+// Middleware
+app.use(express.json());
+
+// Route to trigger alert
+app.post('/send-alert', (req, res) => {
+    const { deviceId, alertMessage } = req.body;
+    if (!deviceId || !alertMessage) {
+        return res.status(400).json({ error: 'deviceId and alertMessage are required' });
+    }
+
+    // Publish the alert to the hardware via MQTT
+    mqttClient.publish(MQTT_TOPIC, JSON.stringify({ deviceId, alertMessage }));
+
+    // Notify connected frontend clients via Socket.IO
+    io.emit('alert-sent', { deviceId, alertMessage });
+
+    return res.json({ success: true, message: `Alert sent to device ${deviceId}` });
+});
+
+// Socket.IO for real-time updates
+io.on('connection', (socket) => {
+    console.log('Client connected:', socket.id);
+
+    // Handle disconnection
+    socket.on('disconnect', () => {
+        console.log('Client disconnected:', socket.id);
+    });
+});
+
+// Start server
+const PORT = process.env.PORT || 5000;
+server.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+});
