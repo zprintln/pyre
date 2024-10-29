@@ -1,0 +1,27 @@
+Install Dependencies Ensure you have Node.js installed, then run:
+npm install express mqtt socket.io
+
+
+Run the Server Start the server:
+node server.js
+
+
+Testing the Endpoint To test the /send-alert endpoint, you can use the following curl command or a tool like Postman:
+curl -X POST http://localhost:5000/send-alert -H "Content-Type: application/json" -d '{"deviceId": "1234", "alertMessage": "Evacuate due to fire risk"}'
+
+
+Frontend Setup for Real-Time Updates (Optional) If you want real-time updates on the frontend, you can add this to your React component:
+
+import { useEffect } from 'react';
+import io from 'socket.io-client';
+
+const socket = io('http://localhost:5000'); // Replace with your backend URL
+
+useEffect(() => {
+    socket.on('alert-sent', (data) => {
+        console.log('Alert received:', data);
+        // Handle frontend updates
+    });
+
+    return () => socket.disconnect();
+}, []);
