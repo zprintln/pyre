@@ -9,15 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.0.0", // Replace with latest version if needed
-    "react": "18.2.0", // Replace with latest version if needed
-    "react-dom": "18.2.0", // Replace with latest version if needed
-    "esri-loader": "^3.3.0", // or the latest version
-    "@types/arcgis-js-api": "^4.20.0", // or the latest version
-    "lucide-react": "^0.245.0" // or the latest version
+    "next": "13.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "esri-loader": "^3.3.0",
+    "@types/arcgis-js-api": "^4.20.0",
+    "lucide-react": "^0.245.0"
   },
   "devDependencies": {
-    "eslint": "8.0.0", // Optional, for linting support
-    "eslint-config-next": "13.0.0" // Optional, for Next.js linting support
+    "eslint": "8.0.0",
+    "eslint-config-next": "13.0.0"
   }
 }
