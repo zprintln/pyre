@@ -1,0 +1,23 @@
+{
+  "name": "pyre-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.0.0", // Replace with latest version if needed
+    "react": "18.2.0", // Replace with latest version if needed
+    "react-dom": "18.2.0", // Replace with latest version if needed
+    "esri-loader": "^3.3.0", // or the latest version
+    "@types/arcgis-js-api": "^4.20.0", // or the latest version
+    "lucide-react": "^0.245.0" // or the latest version
+  },
+  "devDependencies": {
+    "eslint": "8.0.0", // Optional, for linting support
+    "eslint-config-next": "13.0.0" // Optional, for Next.js linting support
+  }
+}
