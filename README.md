@@ -32,7 +32,7 @@ California’s frequent and severe wildfire season is a persistent threat, parti
 
 ## Justice-Centered Vision Statement
 
-The Pyre Alert System is committed to equitable, life-saving communication during wildfire emergencies. By providing evacuation alerts to traditionally underserved groups, Pyre promotes safety and resilience for all community members, prioritizing the needs of elderly, low-income, and rural populations. Estimated costs are $7-$10 making it accessible for the target population.
+The Pyre Alert System is committed to equitable, life-saving communication during wildfire emergencies. By providing evacuation alerts to traditionally underserved groups, Pyre promotes safety and resilience for all community members, prioritizing the needs of elderly, low-income, and rural populations. Estimated costs are $7-$10, to enable accessibility for the target population.
 
 ## Community Engagement Plan
 
