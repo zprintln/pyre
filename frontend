@@ -189,7 +189,7 @@ export default function EcoguardiansDashboard() {
           {/* Info Panel */}
           <Card className="w-80 m-4">
             <CardHeader>
-              <CardTitle>Analytics</CardTitle>
+              <CardTitle>Information</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
@@ -206,6 +206,9 @@ export default function EcoguardiansDashboard() {
                     <Badge variant="secondary" className="bg-orange-500 text-white hover:bg-orange-600">Moderate</Badge>
                     <Badge variant="destructive">Extreme</Badge>
                   </div>
+                  <Button className="w-full mt-2 bg-red-500 hover:bg-red-600">
+                    SEND ALERT
+                  </Button>
                 </div>
                 <div>
                   <h3 className="font-semibold">TOTAL ALERTS</h3>
@@ -236,18 +239,12 @@ export default function EcoguardiansDashboard() {
                 <div>
                   <h3 className="font-semibold">Last Activity</h3>
                   <ScrollArea className="h-32 mt-1">
-                    <div className="mb-2">
-                      <p className="text-sm">Keller Fire - Oakland Hills Fire incident</p>
-                      <p className="text-xs text-gray-500">October 18, at 5:00 PM</p>
-                    </div>
-                    <div className="mb-2">
-                      <p className="text-sm">Alert-2 send to Oakland Hills Houses</p>
-                      <p className="text-xs text-gray-500">October 18, at 12:10 PM</p>
-                    </div>
-                    <div className="mb-2">
-                      <p className="text-sm">Alert-1 send to Oakland Hills Houses by User-7058</p>
-                      <p className="text-xs text-gray-500">October 18, at 12:00 PM</p>
-                    </div>
+                    {[...Array(3)].map((_, i) => (
+                      <div key={i} className="mb-2">
+                        <p className="text-sm">Broken details has been fixed five days ago by worker1</p>
+                        <p className="text-xs text-gray-500">Jul 1 at 2:46pm</p>
+                      </div>
+                    ))}
                   </ScrollArea>
                 </div>
               </div>
