@@ -1,7 +1,7 @@
 # Pyre: Wildfire Radio Alert System for Community Resilience
 
 ### Summary
-The Pyre Wildfire Radio Alert System is a life-saving communication tool designed to protect vulnerable communities in wildfire-prone areas. This non-digital, satellite-enabled alert system ensures that high-risk populations—including those with limited access to internet or cellular networks—receive timely and critical evacuation notifications.
+The Pyre Wildfire Radio Alert System is a life-saving communication tool designed to protect vulnerable communities in wildfire-prone areas. This non-digital, satellite-enabled alert system ensures that high-risk populations—including those with limited access to internet or cellular networks—receive timely and critical evacuation notifications. Pyre also tracks whether alerts are acknowledged, allowing local authorities to prioritize rescue support based on community responses.
 
 ---
 
