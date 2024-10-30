@@ -20,7 +20,7 @@ The Pyre Wildfire Radio Alert System is a life-saving communication tool designe
 
 ## Project Overview
 
-The **Pyre Wildfire Radio Alert System** aims to bridge the communication gap for wildfire warnings in areas where digital and cellular connectivity is unreliable. Using satellite-based radio alerts, Pyre delivers evacuation warnings directly through a fire alarm system, providing a reliable lifeline for vulnerable communities, especially in high-risk regions like rural California.
+The **Pyre Wildfire Radio Alert System** aims to bridge the communication gap for wildfire warnings in areas where digital and cellular connectivity is unreliable. Using satellite-based radio alerts, Pyre delivers evacuation warnings directly through a fire alarm system, providing a reliable and cost friendly lifeline for vulnerable communities, especially in high-risk regions like rural California.
 The system also relays whether the alert has been acknowledged by residents, enabling local authorities to prioritize rescue efforts as needed.
 
 ![image](https://github.com/user-attachments/assets/81e2df0f-08f3-46a6-963c-240ade7bde72)
@@ -32,7 +32,7 @@ California’s frequent and severe wildfire season is a persistent threat, parti
 
 ## Justice-Centered Vision Statement
 
-The Pyre Alert System is committed to equitable, life-saving communication during wildfire emergencies. By providing evacuation alerts to traditionally underserved groups, Pyre promotes safety and resilience for all community members, prioritizing the needs of elderly, low-income, and rural populations.
+The Pyre Alert System is committed to equitable, life-saving communication during wildfire emergencies. By providing evacuation alerts to traditionally underserved groups, Pyre promotes safety and resilience for all community members, prioritizing the needs of elderly, low-income, and rural populations. Estimated costs are $7-$10.
 
 ## Community Engagement Plan
 
