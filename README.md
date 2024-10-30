@@ -1,5 +1,4 @@
-                                              ![Pyre Logo](https://github.com/user-attachments/assets/6f4a517a-c7b5-4856-b658-4365f17b19d0)
-
+![Pyre Banner](https://github.com/user-attachments/assets/ebf23596-7832-4a9a-aaac-2bb7b2d5fd01)
 
 
 # Pyre: Wildfire Radio Alert System for Community Resilience
