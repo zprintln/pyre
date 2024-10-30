@@ -9,11 +9,12 @@ import { Badge } from "@/components/ui/badge"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Slider } from "@/components/ui/slider"
 import { Bell, ChevronDown, ChevronLeft, ChevronRight, Plus, User } from 'lucide-react'
+import Image from 'next/image'
 
 // You'll need to install these packages:
 // npm install esri-loader @types/arcgis-js-api
 
-export default function EcoguardiansDashboard() {
+export default function PyreDashboard() {
   const mapRef = useRef(null)
   const [isSidebarOpen, setIsSidebarOpen] = useState(true)
   const [activeFilter, setActiveFilter] = useState('Current Condition')
@@ -98,7 +99,17 @@ export default function EcoguardiansDashboard() {
       <div className={`bg-gray-900 text-white transition-all duration-300 ${isSidebarOpen ? 'w-64' : 'w-0'}`}>
         {isSidebarOpen && (
           <div className="p-4">
-            <h1 className="text-2xl font-bold mb-8">PYRE</h1>
+            <div className="flex items-center gap-2 mb-8">
+              <Image 
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Pyre%20Logo-t6jCiSBfG02oLKUjdZeEtYId5gNYHw.png" 
+                alt="PYRE Logo" 
+                width={40} 
+                height={40} 
+                className="brightness-100 contrast-100"
+                priority
+              />
+              <h1 className="text-2xl font-bold">PYRE</h1>
+            </div>
             <div className="space-y-4">
               <div className="flex justify-between items-center">
                 <span>FILTERS</span>
