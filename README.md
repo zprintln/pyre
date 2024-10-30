@@ -1,3 +1,6 @@
+![Pyre Logo](https://github.com/user-attachments/assets/419fa049-bc46-4d8f-90ea-e1b778bdefab)
+
+
 # Pyre: Wildfire Radio Alert System for Community Resilience
 
 ### Summary
