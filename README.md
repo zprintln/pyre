@@ -36,7 +36,7 @@ To run the Pyre dashboard locally or deploy it for official use, follow the inst
 
 ## Community Engagement and Support
 
-Pyre emphasizes community safety and resilience, actively engaging with local residents to build trust, offer training, and gather feedback. Regular community sessions ensure the system meets user needs and supports inclusivity in emergency preparedness.
+Pyre emphasizes community safety and resilience, actively engaging with local residents to build trust, offer training, and gather feedback. 
 
 ## License
 
