@@ -1,47 +1,111 @@
-# Pyre Wildfire Radio Alert System
+# Pyre: Wildfire Radio Alert System for Community Resilience
 
-**The Pyre Wildfire Radio Alert System** is a life-saving communication tool designed to protect vulnerable communities in wildfire-prone areas. This non-digital, satellite-enabled alert system ensures that high-risk populations—including those with limited access to internet or cellular networks—receive timely and critical evacuation notifications.
+### Summary
+The Pyre Wildfire Radio Alert System provides a life-saving communication tool for vulnerable communities during wildfire crises. This non-digital satellite alert system ensures high-risk populations can receive timely evacuation notifications without the need for internet or cellular access.
 
-## Project Overview
+---
 
-In California and other regions prone to wildfires, residents in rural, low-income, and elderly communities are disproportionately affected due to barriers in accessing reliable digital communication channels. Pyre seeks to bridge this gap by using satellite-based alerts to deliver evacuation warnings directly to homes, leveraging existing fire alarms and a compact radio transmitter. When activated by local authorities, the system alerts residents using the fire alarm siren, making evacuation notices unmistakable.
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Challenge Description](#challenge-description)
+3. [Justice-Centered Vision Statement](#justice-centered-vision-statement)
+4. [Community Engagement Plan](#community-engagement-plan)
+5. [Implementation Plan](#implementation-plan)
+6. [Equity, Cultural Relevance, and Sustainability](#equity-cultural-relevance-and-sustainability)
+7. [Interdisciplinary Collaboration Plan](#interdisciplinary-collaboration-plan)
+8. [Getting Started](#getting-started)
 
-## Features
+---
 
-- **Non-Digital Alert Transmission**: Utilizes satellite communication to reach residents without relying on internet or cellular networks.
-- **Automatic Integration with Fire Alarms**: Connects directly to existing fire alarm systems to activate loud evacuation alerts.
-- **Dashboard for Monitoring and Management**: A centralized dashboard for emergency services to trigger alerts, track wildfire status, and monitor responses.
-- **Real-Time Wildfire Tracking**: Integrates data such as wildfire perimeters, active incidents, red flag warnings, and air quality forecasts through the [California Department of Forestry and Fire Protection API (CAL FIRE)](https://www.fire.ca.gov/).
+### Project Overview
 
-## Key Data on the Dashboard
+**Title**: Pyre: Wildfire Radio Alert System for Community Resilience
 
-1. **Wildfire Perimeters**
-2. **Active Air Assets**
-3. **Fire Incidents by Acre Size**
-4. **County Alerts**
-5. **Red Flag Warnings**
-6. **Smoke and Haze Forecast**
-7. **Prescribed Fires**
-8. **Currently Active Incidents**
+**Summary**: Pyre is an innovative wildfire alert system that operates without requiring digital or cellular connectivity. Designed for high-risk communities with limited internet access, Pyre leverages radio transmission and existing fire alarm systems to provide timely evacuation alerts, protecting vulnerable populations during wildfire events.
 
-## How It Works
+---
 
-1. **Evacuation Alert Trigger**: Local authorities monitor wildfire progression using the Pyre dashboard. When a wildfire reaches “danger status,” an evacuation alert is triggered.
-2. **Notification Transmission**: A satellite signal activates the Pyre radio transmitters, prompting the connected fire alarms to sound a distinct evacuation warning.
-3. **Response Monitoring**: Residents acknowledge receipt of the alert via a green ("safe") or red ("evacuate") button. If no response is received within an hour, authorities are notified to check on the household.
+### Challenge Description
 
-## Getting Started
+California’s wildfire season has become a year-round crisis, exacerbated by extreme weather patterns like drought, high temperatures, and strong winds. These conditions increase the frequency and severity of wildfires, which threaten communities, infrastructure, and lives. Vulnerable populations—including elderly residents, low-income households, and people in rural areas—face barriers to timely evacuation alerts due to limited access to digital networks.
 
-To run the Pyre dashboard locally or deploy it for official use, follow the installation instructions in the [Installation Guide](./installation.md) and the API setup instructions in [CAL FIRE API Setup](./api_setup.md).
+**Pyre** addresses these challenges by providing an accessible, non-digital alert system designed for use by high-risk groups. Through interdisciplinary collaboration and leveraging existing fire agency data, the system offers a reliable and accessible solution for wildfire alerts.
 
-## Community Engagement and Support
+---
 
-Pyre emphasizes community safety and resilience, actively engaging with local residents to build trust, offer training, and gather feedback. 
+### Justice-Centered Vision Statement
 
-## License
+The Pyre Alert System is dedicated to safeguarding high-risk communities through equitable access to life-saving information during wildfire emergencies. By delivering timely evacuation alerts to those often excluded from digital warnings—such as elderly, low-income, and rural residents—our solution ensures community resilience, reducing evacuation delays and promoting safety for all.
 
-Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
+---
 
---- 
+### Community Engagement Plan
 
-For questions or to contribute, please contact the Pyre team at [pyre.support@example.com](mailto:pyre.support@example.com).
+1. **Identifying and Engaging the Target Audience**: Collaborate with local agencies and community organizations to reach high-risk groups, such as elderly residents, low-income households, and individuals in remote areas.
+2. **Participatory Methods**: Conduct workshops and feedback sessions to ensure the system is user-friendly and culturally relevant.
+3. **Equity Considerations**: Use multiple languages, simple designs, and accessible materials to reach populations with limited digital literacy.
+4. **Cultural Relevance**: Work with community leaders to align the system with local customs and preferences.
+5. **Contingency for Community Pushback**: Conduct additional listening sessions if there is hesitation about the project, and modify the approach based on feedback.
+
+---
+
+### Implementation Plan
+
+1. **Initial Outreach**  
+   - Collaborate with fire departments, social services, and local organizations to identify target communities and launch project awareness.
+   
+2. **System Design and Development**  
+   - Develop hardware and software, including a radio transmitter and API integrations. Conduct usability testing with residents to ensure accessibility.
+
+3. **Education and Training**  
+   - Organize workshops in collaboration with local non-profits to provide training, evacuation tips, and technical support in multiple languages.
+
+4. **Pilot Program and Feedback Collection**  
+   - Conduct a six-month pilot in high-risk areas. Collect feedback and data on system performance and community response.
+
+5. **Full-Scale Deployment**  
+   - Expand the system to all identified high-risk areas, address pilot issues, and ensure maintenance protocols are in place.
+
+6. **Sustainability and Maintenance**  
+   - Secure funding and partnerships for ongoing support, ensuring a community feedback loop to identify and address any issues.
+
+---
+
+### Equity, Cultural Relevance, and Sustainability
+
+- **Equity**: Prioritize accessibility through language support and non-digital features.
+- **Cultural Relevance**: Adapt materials and approach based on community feedback.
+- **Sustainability**: Maintain funding partnerships and encourage local involvement for long-term success.
+
+---
+
+### Interdisciplinary Collaboration Plan
+
+**1. Engineering and Technology**  
+   - Engineers will design and develop the radio transmitter device and alert dashboard, focusing on integration with existing fire alarms.
+
+**2. Public Health and Social Work**  
+   - Public health experts will provide insights into the needs of vulnerable populations and aid in creating accessible educational materials.
+
+**3. Emergency Management and Environmental Science**  
+   - Emergency management professionals will define alert criteria and evacuation protocols.
+
+**4. Community Advocacy and Cultural Specialists**  
+   - Community advocates will ensure the project aligns with local customs and language needs.
+
+**5. Data Analysis and User Experience Design**  
+   - Data analysts and UX designers will monitor system effectiveness and ensure an intuitive user experience.
+
+---
+
+### Getting Started
+
+1. **Prerequisites**
+   - **Node.js**: Ensure Node.js is installed for backend development.
+   - **MQTT Broker**: Set up an MQTT broker (e.g., HiveMQ) to enable radio communications for the alert system.
+
+2. **Installation**
+   ```bash
+   git clone https://github.com/yourusername/pyre-alert-system.git
+   cd pyre-alert-system
+   npm install
